@@ -16,11 +16,93 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gG7-eJ-5h1">
+                                <rect key="frame" x="353" y="215" width="51" height="31"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="277" y="114" width="51" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="OR6-fR-zgw"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ufR-Xr-Cz9">
+                                <rect key="frame" x="192" y="208" width="51" height="31"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="88" y="114" width="51" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Olg-vE-stT"/>
+                                </connections>
+                            </switch>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="rO3-kF-FSG">
+                                <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="27" y="446" width="346" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="268-fS-Nd1"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SliderValue:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2U2-tm-Hmt">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="29" y="417" width="91" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdO-Kd-Gz5">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="136" y="417" width="32" height="21"/>
+                                </variation>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="d1b-uK-zQx">
+                                <rect key="frame" x="-60" y="-14" width="121" height="29"/>
+                                <segments>
+                                    <segment title="Left"/>
+                                    <segment title="Right"/>
+                                </segments>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="154" y="286" width="93" height="29"/>
+                                </variation>
+                                <connections>
+                                    <action selector="touchDown:" destination="BYZ-38-t0r" eventType="valueChanged" id="Q6Y-og-nr4"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="rO3-kF-FSG"/>
+                                <exclude reference="2U2-tm-Hmt"/>
+                                <exclude reference="rdO-Kd-Gz5"/>
+                                <exclude reference="d1b-uK-zQx"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="rO3-kF-FSG"/>
+                                <include reference="2U2-tm-Hmt"/>
+                                <include reference="rdO-Kd-Gz5"/>
+                                <include reference="d1b-uK-zQx"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="leftSwitch" destination="ufR-Xr-Cz9" id="GHy-QG-1fi"/>
+                        <outlet property="rightSwitch" destination="gG7-eJ-5h1" id="eqg-PO-4J5"/>
+                        <outlet property="sliderValue" destination="rdO-Kd-Gz5" id="7IP-ty-dGT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="244.5" y="240"/>
         </scene>
     </scenes>
 </document>
