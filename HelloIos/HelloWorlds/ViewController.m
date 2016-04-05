@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onClick:(id)sender {
+    self.label1.text=@"Hello Sir!";
+}
+
 @end

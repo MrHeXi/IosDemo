@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *label1;
+- (IBAction)onClick:(id)sender;
 
 @end
 
