@@ -16,14 +16,6 @@
 		DF3E4CFD1CB35968009672C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3E4CFB1CB35968009672C8 /* LaunchScreen.storyboard */; };
 		DF3E4D081CB35968009672C8 /* TabbedAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3E4D071CB35968009672C8 /* TabbedAppTests.m */; };
 		DF3E4D131CB35968009672C8 /* TabbedAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3E4D121CB35968009672C8 /* TabbedAppUITests.m */; };
-		DF3E4D281CB36960009672C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3E4D271CB36960009672C8 /* main.m */; };
-		DF3E4D2B1CB36960009672C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3E4D2A1CB36960009672C8 /* AppDelegate.m */; };
-		DF3E4D2E1CB36960009672C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3E4D2D1CB36960009672C8 /* ViewController.m */; };
-		DF3E4D311CB36960009672C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3E4D2F1CB36960009672C8 /* Main.storyboard */; };
-		DF3E4D331CB36960009672C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3E4D321CB36960009672C8 /* Assets.xcassets */; };
-		DF3E4D361CB36960009672C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3E4D341CB36960009672C8 /* LaunchScreen.storyboard */; };
-		DF3E4D411CB36960009672C8 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3E4D401CB36960009672C8 /* HelloWorldTests.m */; };
-		DF3E4D4C1CB36960009672C8 /* HelloWorldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3E4D4B1CB36960009672C8 /* HelloWorldUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,21 +69,8 @@
 		DF3E4D121CB35968009672C8 /* TabbedAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbedAppUITests.m; sourceTree = "<group>"; };
 		DF3E4D141CB35968009672C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF3E4D241CB36960009672C8 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF3E4D271CB36960009672C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DF3E4D291CB36960009672C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DF3E4D2A1CB36960009672C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF3E4D2C1CB36960009672C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DF3E4D2D1CB36960009672C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DF3E4D301CB36960009672C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF3E4D321CB36960009672C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF3E4D351CB36960009672C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DF3E4D371CB36960009672C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF3E4D3C1CB36960009672C8 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF3E4D401CB36960009672C8 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
-		DF3E4D421CB36960009672C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF3E4D471CB36960009672C8 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF3E4D4B1CB36960009672C8 /* HelloWorldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldUITests.m; sourceTree = "<group>"; };
-		DF3E4D4D1CB36960009672C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,9 +125,6 @@
 				DF3E4CE91CB35968009672C8 /* TabbedApp */,
 				DF3E4D061CB35968009672C8 /* TabbedAppTests */,
 				DF3E4D111CB35968009672C8 /* TabbedAppUITests */,
-				DF3E4D251CB36960009672C8 /* HelloWorld */,
-				DF3E4D3F1CB36960009672C8 /* HelloWorldTests */,
-				DF3E4D4A1CB36960009672C8 /* HelloWorldUITests */,
 				DF3E4CE81CB35968009672C8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -208,48 +184,6 @@
 				DF3E4D141CB35968009672C8 /* Info.plist */,
 			);
 			path = TabbedAppUITests;
-			sourceTree = "<group>";
-		};
-		DF3E4D251CB36960009672C8 /* HelloWorld */ = {
-			isa = PBXGroup;
-			children = (
-				DF3E4D291CB36960009672C8 /* AppDelegate.h */,
-				DF3E4D2A1CB36960009672C8 /* AppDelegate.m */,
-				DF3E4D2C1CB36960009672C8 /* ViewController.h */,
-				DF3E4D2D1CB36960009672C8 /* ViewController.m */,
-				DF3E4D2F1CB36960009672C8 /* Main.storyboard */,
-				DF3E4D321CB36960009672C8 /* Assets.xcassets */,
-				DF3E4D341CB36960009672C8 /* LaunchScreen.storyboard */,
-				DF3E4D371CB36960009672C8 /* Info.plist */,
-				DF3E4D261CB36960009672C8 /* Supporting Files */,
-			);
-			path = HelloWorld;
-			sourceTree = "<group>";
-		};
-		DF3E4D261CB36960009672C8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DF3E4D271CB36960009672C8 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DF3E4D3F1CB36960009672C8 /* HelloWorldTests */ = {
-			isa = PBXGroup;
-			children = (
-				DF3E4D401CB36960009672C8 /* HelloWorldTests.m */,
-				DF3E4D421CB36960009672C8 /* Info.plist */,
-			);
-			path = HelloWorldTests;
-			sourceTree = "<group>";
-		};
-		DF3E4D4A1CB36960009672C8 /* HelloWorldUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DF3E4D4B1CB36960009672C8 /* HelloWorldUITests.m */,
-				DF3E4D4D1CB36960009672C8 /* Info.plist */,
-			);
-			path = HelloWorldUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,9 +380,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3E4D361CB36960009672C8 /* LaunchScreen.storyboard in Resources */,
-				DF3E4D331CB36960009672C8 /* Assets.xcassets in Resources */,
-				DF3E4D311CB36960009672C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,9 +431,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3E4D2E1CB36960009672C8 /* ViewController.m in Sources */,
-				DF3E4D2B1CB36960009672C8 /* AppDelegate.m in Sources */,
-				DF3E4D281CB36960009672C8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,7 +438,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3E4D411CB36960009672C8 /* HelloWorldTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,7 +445,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3E4D4C1CB36960009672C8 /* HelloWorldUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,22 +486,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				DF3E4CFC1CB35968009672C8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		DF3E4D2F1CB36960009672C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF3E4D301CB36960009672C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DF3E4D341CB36960009672C8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF3E4D351CB36960009672C8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -822,6 +732,7 @@
 				DF3E4D191CB35968009672C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF3E4D1A1CB35968009672C8 /* Build configuration list for PBXNativeTarget "TabbedAppTests" */ = {
 			isa = XCConfigurationList;
@@ -830,6 +741,7 @@
 				DF3E4D1C1CB35968009672C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF3E4D1D1CB35968009672C8 /* Build configuration list for PBXNativeTarget "TabbedAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -838,6 +750,7 @@
 				DF3E4D1F1CB35968009672C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF3E4D4E1CB36960009672C8 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
 			isa = XCConfigurationList;
@@ -846,6 +759,7 @@
 				DF3E4D501CB36960009672C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF3E4D511CB36960009672C8 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -854,6 +768,7 @@
 				DF3E4D531CB36960009672C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF3E4D541CB36960009672C8 /* Build configuration list for PBXNativeTarget "HelloWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -862,6 +777,7 @@
 				DF3E4D561CB36960009672C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
