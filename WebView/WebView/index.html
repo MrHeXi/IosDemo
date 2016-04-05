@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
+    <title>index</title>
+</head>
+<body>
+<div class="cos-login">
+    <div class="cos-login-wrap">
+        <h1>index</h1>
+       <div style="margin:1em auto;width:200px;"><span  class="text-danger" id="loginError">${message!}</span></div>
+        <form name="loginForm" id="loginForm"  role="form" method="post">
+            <div class="form-cell">
+                <label>工号</label><input name="staffCode" id="staffCode" type="text" class="inputer"/>
+            </div>
+            <div class="form-cell">
+                <label>密码</label><input name="password" id="password" type="password" class="inputer"/>
+            </div>
+            <div class="form-cell" style="margin-left:152px;margin-top:10px">
+                <div class="form-cell-left"><span id="chkRmbAccount" class="chk">记住账户</span></div>
+                <div class="form-cell-left"><span id="chkRmbPwd"  class="chk">记住密码</span></div>
+            </div>
+            <div class="form-cell">
+                <input type="button" value="登录" class="loginbtn" id="loginbtn"/>
+            </div>
+            <input type="hidden" name="forceLogout" id="forceLogout" value="false"/>
+        </form>
+    </div>
+    <div class="cos-login-rt"></div>
+</div>
+</body>
+</html>
+<script>
+    
+</script>

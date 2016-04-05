@@ -15,6 +15,7 @@
 		DF345C9C1CB3FE0600520960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF345C9A1CB3FE0600520960 /* LaunchScreen.storyboard */; };
 		DF345CA71CB3FE0600520960 /* WebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF345CA61CB3FE0600520960 /* WebViewTests.m */; };
 		DF345CB21CB3FE0600520960 /* WebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF345CB11CB3FE0600520960 /* WebViewUITests.m */; };
+		DF345CC01CB4083300520960 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DF345CBF1CB4083300520960 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DF345CAD1CB3FE0600520960 /* WebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF345CB11CB3FE0600520960 /* WebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewUITests.m; sourceTree = "<group>"; };
 		DF345CB31CB3FE0600520960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF345CBF1CB4083300520960 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		DF345C8B1CB3FE0600520960 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
+				DF345CBF1CB4083300520960 /* index.html */,
 				DF345C8F1CB3FE0600520960 /* AppDelegate.h */,
 				DF345C901CB3FE0600520960 /* AppDelegate.m */,
 				DF345C921CB3FE0600520960 /* ViewController.h */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF345C9C1CB3FE0600520960 /* LaunchScreen.storyboard in Resources */,
+				DF345CC01CB4083300520960 /* index.html in Resources */,
 				DF345C991CB3FE0600520960 /* Assets.xcassets in Resources */,
 				DF345C971CB3FE0600520960 /* Main.storyboard in Resources */,
 			);
