@@ -15,6 +15,16 @@
 		DF72E2D31CB5040200752606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF72E2D11CB5040200752606 /* LaunchScreen.storyboard */; };
 		DF72E2DE1CB5040200752606 /* CollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72E2DD1CB5040200752606 /* CollectionViewTests.m */; };
 		DF72E2E91CB5040200752606 /* CollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72E2E81CB5040200752606 /* CollectionViewUITests.m */; };
+		DF72E2F81CB50FFE00752606 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72E2F71CB50FFE00752606 /* Cell.m */; };
+		DF72E3051CB515EA00752606 /* events.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF72E2FC1CB515EA00752606 /* events.plist */; };
+		DF72E3061CB515EA00752606 /* canoe-sprint.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF72E2FD1CB515EA00752606 /* canoe-sprint.gif */; };
+		DF72E3071CB515EA00752606 /* canoe-slalom.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF72E2FE1CB515EA00752606 /* canoe-slalom.gif */; };
+		DF72E3081CB515EA00752606 /* boxing.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF72E2FF1CB515EA00752606 /* boxing.gif */; };
+		DF72E3091CB515EA00752606 /* beach-volleyball.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF72E3001CB515EA00752606 /* beach-volleyball.gif */; };
+		DF72E30A1CB515EA00752606 /* basketball.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF72E3011CB515EA00752606 /* basketball.gif */; };
+		DF72E30B1CB515EA00752606 /* badminton.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF72E3021CB515EA00752606 /* badminton.gif */; };
+		DF72E30C1CB515EA00752606 /* athletics.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF72E3031CB515EA00752606 /* athletics.gif */; };
+		DF72E30D1CB515EA00752606 /* archery.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF72E3041CB515EA00752606 /* archery.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,17 @@
 		DF72E2E41CB5040200752606 /* CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF72E2E81CB5040200752606 /* CollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewUITests.m; sourceTree = "<group>"; };
 		DF72E2EA1CB5040200752606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF72E2F61CB50FFE00752606 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		DF72E2F71CB50FFE00752606 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		DF72E2FC1CB515EA00752606 /* events.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = events.plist; path = Olympics_Pic/events.plist; sourceTree = "<group>"; };
+		DF72E2FD1CB515EA00752606 /* canoe-sprint.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "canoe-sprint.gif"; path = "Olympics_Pic/canoe-sprint.gif"; sourceTree = "<group>"; };
+		DF72E2FE1CB515EA00752606 /* canoe-slalom.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "canoe-slalom.gif"; path = "Olympics_Pic/canoe-slalom.gif"; sourceTree = "<group>"; };
+		DF72E2FF1CB515EA00752606 /* boxing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = boxing.gif; path = Olympics_Pic/boxing.gif; sourceTree = "<group>"; };
+		DF72E3001CB515EA00752606 /* beach-volleyball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "beach-volleyball.gif"; path = "Olympics_Pic/beach-volleyball.gif"; sourceTree = "<group>"; };
+		DF72E3011CB515EA00752606 /* basketball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = basketball.gif; path = Olympics_Pic/basketball.gif; sourceTree = "<group>"; };
+		DF72E3021CB515EA00752606 /* badminton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = badminton.gif; path = Olympics_Pic/badminton.gif; sourceTree = "<group>"; };
+		DF72E3031CB515EA00752606 /* athletics.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = athletics.gif; path = Olympics_Pic/athletics.gif; sourceTree = "<group>"; };
+		DF72E3041CB515EA00752606 /* archery.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = archery.gif; path = Olympics_Pic/archery.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +122,7 @@
 		DF72E2C21CB5040200752606 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				DF72E2FB1CB515AB00752606 /* source */,
 				DF72E2C61CB5040200752606 /* AppDelegate.h */,
 				DF72E2C71CB5040200752606 /* AppDelegate.m */,
 				DF72E2C91CB5040200752606 /* ViewController.h */,
@@ -110,6 +132,8 @@
 				DF72E2D11CB5040200752606 /* LaunchScreen.storyboard */,
 				DF72E2D41CB5040200752606 /* Info.plist */,
 				DF72E2C31CB5040200752606 /* Supporting Files */,
+				DF72E2F61CB50FFE00752606 /* Cell.h */,
+				DF72E2F71CB50FFE00752606 /* Cell.m */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -138,6 +162,22 @@
 				DF72E2EA1CB5040200752606 /* Info.plist */,
 			);
 			path = CollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		DF72E2FB1CB515AB00752606 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				DF72E2FC1CB515EA00752606 /* events.plist */,
+				DF72E2FD1CB515EA00752606 /* canoe-sprint.gif */,
+				DF72E2FE1CB515EA00752606 /* canoe-slalom.gif */,
+				DF72E2FF1CB515EA00752606 /* boxing.gif */,
+				DF72E3001CB515EA00752606 /* beach-volleyball.gif */,
+				DF72E3011CB515EA00752606 /* basketball.gif */,
+				DF72E3021CB515EA00752606 /* badminton.gif */,
+				DF72E3031CB515EA00752606 /* athletics.gif */,
+				DF72E3041CB515EA00752606 /* archery.gif */,
+			);
+			name = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +284,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF72E2D31CB5040200752606 /* LaunchScreen.storyboard in Resources */,
+				DF72E30B1CB515EA00752606 /* badminton.gif in Resources */,
+				DF72E3061CB515EA00752606 /* canoe-sprint.gif in Resources */,
 				DF72E2D01CB5040200752606 /* Assets.xcassets in Resources */,
+				DF72E3071CB515EA00752606 /* canoe-slalom.gif in Resources */,
+				DF72E30D1CB515EA00752606 /* archery.gif in Resources */,
+				DF72E3081CB515EA00752606 /* boxing.gif in Resources */,
 				DF72E2CE1CB5040200752606 /* Main.storyboard in Resources */,
+				DF72E30A1CB515EA00752606 /* basketball.gif in Resources */,
+				DF72E3091CB515EA00752606 /* beach-volleyball.gif in Resources */,
+				DF72E30C1CB515EA00752606 /* athletics.gif in Resources */,
+				DF72E3051CB515EA00752606 /* events.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF72E2CB1CB5040200752606 /* ViewController.m in Sources */,
+				DF72E2F81CB50FFE00752606 /* Cell.m in Sources */,
 				DF72E2C81CB5040200752606 /* AppDelegate.m in Sources */,
 				DF72E2C51CB5040200752606 /* main.m in Sources */,
 			);
