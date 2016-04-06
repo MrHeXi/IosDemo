@@ -15,6 +15,8 @@
 		DF72E2901CB4ECC000752606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF72E28E1CB4ECC000752606 /* LaunchScreen.storyboard */; };
 		DF72E29B1CB4ECC000752606 /* DatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72E29A1CB4ECC000752606 /* DatePickerTests.m */; };
 		DF72E2A61CB4ECC000752606 /* DatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF72E2A51CB4ECC000752606 /* DatePickerUITests.m */; };
+		DF72E2B41CB4F04F00752606 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF72E2B31CB4F04F00752606 /* area.plist */; };
+		DF72E2B61CB4F2B700752606 /* provinces_cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF72E2B51CB4F2B700752606 /* provinces_cities.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DF72E2A11CB4ECC000752606 /* DatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF72E2A51CB4ECC000752606 /* DatePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickerUITests.m; sourceTree = "<group>"; };
 		DF72E2A71CB4ECC000752606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF72E2B31CB4F04F00752606 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		DF72E2B51CB4F2B700752606 /* provinces_cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces_cities.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		DF72E27F1CB4ECC000752606 /* DatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				DF72E2B51CB4F2B700752606 /* provinces_cities.plist */,
+				DF72E2B31CB4F04F00752606 /* area.plist */,
 				DF72E2831CB4ECC000752606 /* AppDelegate.h */,
 				DF72E2841CB4ECC000752606 /* AppDelegate.m */,
 				DF72E2861CB4ECC000752606 /* ViewController.h */,
@@ -244,8 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF72E2901CB4ECC000752606 /* LaunchScreen.storyboard in Resources */,
+				DF72E2B41CB4F04F00752606 /* area.plist in Resources */,
 				DF72E28D1CB4ECC000752606 /* Assets.xcassets in Resources */,
 				DF72E28B1CB4ECC000752606 /* Main.storyboard in Resources */,
+				DF72E2B61CB4F2B700752606 /* provinces_cities.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
