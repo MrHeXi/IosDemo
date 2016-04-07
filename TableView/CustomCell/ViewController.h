@@ -12,6 +12,7 @@
 
 @property(strong,nonatomic) NSArray *teamList;
 
+- (IBAction)login:(id)sender;
 
 @end
 

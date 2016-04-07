@@ -4,10 +4,30 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AddDeleteCell.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>CustomCell.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>IndexTable.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>RefreshControl.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>StaticTable.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>TableView.xcscheme</key>
 		<dict>
@@ -43,6 +63,66 @@
 			<true/>
 		</dict>
 		<key>DF72E3B61CB545BD00752606</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF18B441CB6077600FACDD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF18B5C1CB6077600FACDD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF18B671CB6077600FACDD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF18B7B1CB633A300FACDD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF18B931CB633A300FACDD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF18B9E1CB633A300FACDD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF2F0241CB5F2F400B6927C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF2F03C1CB5F2F400B6927C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF2F0471CB5F2F400B6927C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF2F05F1CB5FF3300B6927C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF2F0771CB5FF3400B6927C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF2F0821CB5FF3400B6927C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

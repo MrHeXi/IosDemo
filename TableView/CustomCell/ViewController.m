@@ -46,4 +46,6 @@
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
+- (IBAction)login:(id)sender {
+}
 @end

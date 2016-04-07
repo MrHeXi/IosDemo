@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UITableViewController
 
-
+@property (strong, nonatomic) IBOutlet UITextField *txtField;
+@property(strong,nonatomic) NSMutableArray *itemList;
 @end
 

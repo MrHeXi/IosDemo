@@ -12,5 +12,6 @@
 @property(strong,nonatomic) NSArray *teamList;
 @property(strong,nonatomic) NSMutableArray *filterTeamList;
 
+- (IBAction)login:(id)sender;
 @end
 
