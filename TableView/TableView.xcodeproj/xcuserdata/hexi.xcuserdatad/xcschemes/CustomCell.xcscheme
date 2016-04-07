@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF72E3161CB5373C00752606"
-               BuildableName = "TableView.app"
-               BlueprintName = "TableView"
+               BlueprintIdentifier = "DF72E3931CB545BC00752606"
+               BuildableName = "CustomCell.app"
+               BlueprintName = "CustomCell"
                ReferencedContainer = "container:TableView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF72E32F1CB5373C00752606"
-               BuildableName = "TableViewTests.xctest"
-               BlueprintName = "TableViewTests"
+               BlueprintIdentifier = "DF72E3AB1CB545BD00752606"
+               BuildableName = "CustomCellTests.xctest"
+               BlueprintName = "CustomCellTests"
                ReferencedContainer = "container:TableView.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF72E33A1CB5373C00752606"
-               BuildableName = "TableViewUITests.xctest"
-               BlueprintName = "TableViewUITests"
+               BlueprintIdentifier = "DF72E3B61CB545BD00752606"
+               BuildableName = "CustomCellUITests.xctest"
+               BlueprintName = "CustomCellUITests"
                ReferencedContainer = "container:TableView.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -52,9 +52,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF72E3161CB5373C00752606"
-            BuildableName = "TableView.app"
-            BlueprintName = "TableView"
+            BlueprintIdentifier = "DF72E3931CB545BC00752606"
+            BuildableName = "CustomCell.app"
+            BlueprintName = "CustomCell"
             ReferencedContainer = "container:TableView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +75,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF72E3161CB5373C00752606"
-            BuildableName = "TableView.app"
-            BlueprintName = "TableView"
+            BlueprintIdentifier = "DF72E3931CB545BC00752606"
+            BuildableName = "CustomCell.app"
+            BlueprintName = "CustomCell"
             ReferencedContainer = "container:TableView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,9 +94,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF72E3161CB5373C00752606"
-            BuildableName = "TableView.app"
-            BlueprintName = "TableView"
+            BlueprintIdentifier = "DF72E3931CB545BC00752606"
+            BuildableName = "CustomCell.app"
+            BlueprintName = "CustomCell"
             ReferencedContainer = "container:TableView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

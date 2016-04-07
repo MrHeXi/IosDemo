@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustomCell : UICollectionViewCell
+@interface CustomCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *myImageView;
 
 @end
