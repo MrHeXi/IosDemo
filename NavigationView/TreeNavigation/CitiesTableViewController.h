@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CitiesTableViewController : UITableViewController
-
+@property(strong,nonatomic) NSArray *dataList;
 @end

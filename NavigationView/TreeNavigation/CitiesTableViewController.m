@@ -7,7 +7,7 @@
 //
 
 #import "CitiesTableViewController.h"
-
+#import "DetailViewController.h"
 @interface CitiesTableViewController ()
 
 @end
@@ -17,11 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,23 +28,25 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 0;
+    return [self.dataList count];
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CellIdentifier" forIndexPath:indexPath];
+    NSDictionary *nameAndUrl =[self.dataList objectAtIndex:[indexPath row]];
+
+    cell.textLabel.text = [nameAndUrl objectForKey:@"name"];
     // Configure the cell...
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
@@ -85,14 +82,24 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if ([segue.identifier isEqualToString:@"ShowSelectedCity"]) {
+        DetailViewController *detailViewController = segue.destinationViewController;
+        NSInteger selectedIndex = [[self.tableView indexPathForSelectedRow]row];
+        
+        NSDictionary *nameAndUrl =[self.dataList objectAtIndex:selectedIndex];
+        
+        detailViewController.url = [nameAndUrl objectForKey:@"url"];
+        detailViewController.title = [nameAndUrl objectForKey:@"name"];
+
+    }
 }
-*/
+
 
 @end

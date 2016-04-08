@@ -1,40 +1,31 @@
 //
-//  ModalViewController.m
+//  DetailViewController.m
 //  NavigationView
 //
-//  Created by 何溪 on 16/4/8.
+//  Created by 何溪 on 16/4/7.
 //  Copyright © 2016年 何溪. All rights reserved.
 //
 
-#import "ModalViewController.h"
+#import "DetailViewController.h"
 
-@interface ModalViewController ()
+@interface DetailViewController ()<UIWebViewDelegate>
 
 @end
 
-@implementation ModalViewController
+@implementation DetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.myWebView.delegate = self;
+    NSURL *nsurl = [NSURL URLWithString:self.url];
+    NSURLRequest *request = [NSURLRequest requestWithURL:nsurl];
+    [self.myWebView loadRequest:request];
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-- (IBAction)save:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:^{
-        NSLog(@"click cancel save");
-        
-    }];
-}
-
-- (IBAction)cancel:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:^{
-        NSLog(@"click cancel item");
-        
-    }];
 }
 
 /*
@@ -47,4 +38,12 @@
 }
 */
 
+#pragma mark UIWebViewDelegate
+-(void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error{
+    NSLog(@"error");
+}
+
+-(void)webViewDidFinishLoad:(UIWebView *)webView{
+    NSLog(@"finish!");
+}
 @end

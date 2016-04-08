@@ -8,7 +8,7 @@
 
 #import "DetailViewController.h"
 
-@interface DetailViewController ()
+@interface DetailViewController ()<UIWebViewDelegate>
 
 @end
 
@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.webView.delegate = self;
+    NSURL *nsurl = [NSURL URLWithString:self.url];
+    NSURLRequest *request = [NSURLRequest requestWithURL:nsurl];
+    [self.webView loadRequest:request];
     // Do any additional setup after loading the view.
 }
 
@@ -34,4 +38,12 @@
 }
 */
 
+#pragma mark UIWebViewDelegate
+-(void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error{
+    NSLog(@"error");
+}
+
+-(void)webViewDidFinishLoad:(UIWebView *)webView{
+    NSLog(@"finish!");
+}
 @end

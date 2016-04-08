@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyViewController : UITableViewController
+@interface MyViewController : UITableViewController<UITableViewDelegate,UITableViewDataSource>
 
+@property(strong,nonatomic)NSDictionary *dictData;
+@property(strong,nonatomic)NSArray *dataList;
 @end

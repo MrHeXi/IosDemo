@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UITableViewController
 
+@property(strong,nonatomic) NSDictionary *dictData;
+@property(strong,nonatomic) NSArray *dataList;
 
 @end
 

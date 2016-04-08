@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *userName;
 
 @end
 
@@ -16,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(registerCompletion:) name:@"RegisterCompetionNotification" object:nil];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,4 +27,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)registerCompletion:(NSNotification *)notification{
+    NSDictionary *theData = [notification userInfo];
+    NSString *userName = [theData objectForKey:@"userName"];
+    self.userName.text = userName;
+}
 @end

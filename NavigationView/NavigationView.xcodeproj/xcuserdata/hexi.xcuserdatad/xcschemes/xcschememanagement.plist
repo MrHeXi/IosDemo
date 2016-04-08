@@ -4,14 +4,84 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ComplexNavigation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>NavigationView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>PageControlNavigation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>PageViewNavigation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>TabNavigation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>TreeNavigation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>DF7BC3901CB6786900B263AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF7BC3A81CB6786900B263AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF7BC3B31CB6786900B263AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF7BC3D41CB68BC900B263AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF7BC3EF1CB68BC900B263AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF7BC3FA1CB68BC900B263AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF7BC4121CB68F3500B263AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF7BC42A1CB68F3500B263AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF7BC4351CB68F3500B263AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>DFF18BB71CB63ED500FACDD7</key>
 		<dict>
 			<key>primary</key>
@@ -23,6 +93,36 @@
 			<true/>
 		</dict>
 		<key>DFF18BDB1CB63ED500FACDD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF18BF61CB64A0000FACDD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF18C0E1CB64A0000FACDD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF18C191CB64A0000FACDD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFFC733D1CB6A39600AE5778</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFFC73551CB6A39600AE5778</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFFC73601CB6A39600AE5778</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,7 +7,7 @@
 //
 
 #import "MyViewController.h"
-
+#import "CitiesTableViewController.h"
 @interface MyViewController ()
 
 @end
@@ -16,13 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
+    NSBundle *bundle = [NSBundle mainBundle];
+    NSString *dataPath = [bundle pathForResource:@"provinces_cities" ofType:@"plist"];
+    self.dictData = [[NSDictionary alloc]initWithContentsOfFile:dataPath];
+    self.dataList = [self.dictData allKeys];
+    self.title=@"省份信息";
+    }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -33,23 +32,22 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 0;
+    return [self.dataList count];
 }
 
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+-(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *CellIdentifier = @"CellIdentifier";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    cell.textLabel.text =[self.dataList objectAtIndex:indexPath.row];
     return cell;
 }
-*/
+
+
 
 /*
 // Override to support conditional editing of the table view.
@@ -85,14 +83,22 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+     //Get the new view controller using [segue destinationViewController].
+     //Pass the selected object to the new view controller.
+    if ([segue.identifier isEqualToString:@"ShowSelectedProvince"]) {
+        NSLog(@"coming");
+        CitiesTableViewController *citiesTableViewController =segue.destinationViewController;
+        NSInteger selectedIndex = [[self.tableView indexPathForSelectedRow]row];
+        NSString *selectedName = [self.dataList objectAtIndex:selectedIndex];
+        citiesTableViewController.dataList = [self.dictData objectForKey:selectedName];
+        citiesTableViewController.title = selectedName;
+    }
 }
-*/
+
 
 @end
