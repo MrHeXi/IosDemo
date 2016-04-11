@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Note.h"
+#import "NoteBL.h"
 @interface AddNoteViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UITextView *myNote;
+@property(strong,nonatomic) Note* myModifyNote;
+- (void)setDetailItem:(Note*)note ;
 @end

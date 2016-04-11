@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Note.h"
+#import "NoteDao.h"
 @interface NoteBL : NSObject
-
+-(NSMutableArray*) createNote:(Note*) note;
+-(NSMutableArray*) deleteNote:(Note*) note;
+-(NSMutableArray*) modifyNote:(Note*) note;
+-(NSMutableArray*) getAll;
 @end

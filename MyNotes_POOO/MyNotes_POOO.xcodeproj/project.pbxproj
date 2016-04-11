@@ -13,6 +13,11 @@
 		DFD974A41CBB68620052D97D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD974A21CBB68620052D97D /* Main.storyboard */; };
 		DFD974A61CBB68620052D97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD974A51CBB68620052D97D /* Assets.xcassets */; };
 		DFD974A91CBB68620052D97D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD974A71CBB68620052D97D /* LaunchScreen.storyboard */; };
+		DFD974B41CBB69870052D97D /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD974B31CBB69870052D97D /* Note.m */; };
+		DFD974B71CBB6A0D0052D97D /* NoteDao.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD974B61CBB6A0D0052D97D /* NoteDao.m */; };
+		DFD974BA1CBB72D90052D97D /* NoteBL.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD974B91CBB72D90052D97D /* NoteBL.m */; };
+		DFF1CBBD1CBB8A6E00616D4C /* AddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF1CBBC1CBB8A6E00616D4C /* AddNoteViewController.m */; };
+		DFF1CBBF1CBBB7D500616D4C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DFF1CBBE1CBBB7D500616D4C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		DFD974A51CBB68620052D97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFD974A81CBB68620052D97D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFD974AA1CBB68620052D97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD974B21CBB69870052D97D /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		DFD974B31CBB69870052D97D /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		DFD974B51CBB6A0D0052D97D /* NoteDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDao.h; sourceTree = "<group>"; };
+		DFD974B61CBB6A0D0052D97D /* NoteDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDao.m; sourceTree = "<group>"; };
+		DFD974B81CBB72D90052D97D /* NoteBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBL.h; sourceTree = "<group>"; };
+		DFD974B91CBB72D90052D97D /* NoteBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteBL.m; sourceTree = "<group>"; };
+		DFF1CBBB1CBB8A6E00616D4C /* AddNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNoteViewController.h; sourceTree = "<group>"; };
+		DFF1CBBC1CBB8A6E00616D4C /* AddNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNoteViewController.m; sourceTree = "<group>"; };
+		DFF1CBBE1CBBB7D500616D4C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +56,11 @@
 		DFD9748D1CBB68620052D97D = {
 			isa = PBXGroup;
 			children = (
-				DFD974981CBB68620052D97D /* MyNotes_POOO */,
+				DFD974B01CBB68B30052D97D /* PersistenceLayer */,
+				DFD974B11CBB68CA0052D97D /* BusinessLogicLayer */,
+				DFD974981CBB68620052D97D /* PresentationLayer */,
 				DFD974971CBB68620052D97D /* Products */,
+				DFF1CBBE1CBBB7D500616D4C /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +72,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DFD974981CBB68620052D97D /* MyNotes_POOO */ = {
+		DFD974981CBB68620052D97D /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
 				DFD9749C1CBB68620052D97D /* AppDelegate.h */,
 				DFD9749D1CBB68620052D97D /* AppDelegate.m */,
+				DFF1CBBB1CBB8A6E00616D4C /* AddNoteViewController.h */,
+				DFF1CBBC1CBB8A6E00616D4C /* AddNoteViewController.m */,
 				DFD9749F1CBB68620052D97D /* ViewController.h */,
 				DFD974A01CBB68620052D97D /* ViewController.m */,
 				DFD974A21CBB68620052D97D /* Main.storyboard */,
@@ -68,6 +87,7 @@
 				DFD974AA1CBB68620052D97D /* Info.plist */,
 				DFD974991CBB68620052D97D /* Supporting Files */,
 			);
+			name = PresentationLayer;
 			path = MyNotes_POOO;
 			sourceTree = "<group>";
 		};
@@ -77,6 +97,26 @@
 				DFD9749A1CBB68620052D97D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFD974B01CBB68B30052D97D /* PersistenceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DFD974B21CBB69870052D97D /* Note.h */,
+				DFD974B31CBB69870052D97D /* Note.m */,
+				DFD974B51CBB6A0D0052D97D /* NoteDao.h */,
+				DFD974B61CBB6A0D0052D97D /* NoteDao.m */,
+			);
+			name = PersistenceLayer;
+			sourceTree = "<group>";
+		};
+		DFD974B11CBB68CA0052D97D /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DFD974B81CBB72D90052D97D /* NoteBL.h */,
+				DFD974B91CBB72D90052D97D /* NoteBL.m */,
+			);
+			name = BusinessLogicLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +190,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFD974A11CBB68620052D97D /* ViewController.m in Sources */,
+				DFF1CBBD1CBB8A6E00616D4C /* AddNoteViewController.m in Sources */,
+				DFD974BA1CBB72D90052D97D /* NoteBL.m in Sources */,
 				DFD9749E1CBB68620052D97D /* AppDelegate.m in Sources */,
+				DFD974B71CBB6A0D0052D97D /* NoteDao.m in Sources */,
 				DFD9749B1CBB68620052D97D /* main.m in Sources */,
+				DFF1CBBF1CBBB7D500616D4C /* README.md in Sources */,
+				DFD974B41CBB69870052D97D /* Note.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +347,7 @@
 				DFD974AF1CBB68620052D97D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

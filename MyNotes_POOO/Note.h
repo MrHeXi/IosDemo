@@ -10,4 +10,7 @@
 
 @interface Note : NSObject
 
+@property(nonatomic) int noteId;
+@property(strong,nonatomic) NSDate* createTime;
+@property(strong,nonatomic) NSString* contents;
 @end

@@ -16,12 +16,63 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self configureView];
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)cancel:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:^{
+        NSLog(@"click cancel save");
+    }];
+}
+
+- (IBAction)save:(id)sender {
+    NSString *contents = [self.myNote.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    if ([contents length] == 0) {
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"警告" message:@"请填写内容" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+        [alert show];
+        return;
+    }
+    
+    [self dismissViewControllerAnimated:YES completion:^{
+        NSLog(@"click cancel save");
+            Note* note = [[Note alloc]init];
+            note.createTime = [[NSDate alloc]init];
+            note.contents = contents;
+            NoteBL* bl = [[NoteBL alloc]init];
+        NSMutableArray *resList;
+        if (self.myModifyNote == nil) {
+            resList = [bl createNote: note];
+        }else{
+            note.noteId = self.myModifyNote.noteId;
+            resList = [bl modifyNote: note];
+        }
+        
+        [[NSNotificationCenter defaultCenter]postNotificationName:@"addNewNote" object:resList userInfo:nil];
+    }];
+}
+
+
+
+- (void)setDetailItem:(Note*)note {
+    if (_myModifyNote != note) {
+        _myModifyNote = note;
+    }
+}
+
+- (void)configureView {
+    if (self.myModifyNote) {
+        Note* note = self.myModifyNote;
+        self.myNote.text = note.contents;
+        NSLog(@"%@---contents",note.contents);
+        NSLog(@"%@---self.myNote",self.myNote);
+        NSLog(@"%@---self.myNote.text",self.myNote.text);
+    }
 }
 
 /*
