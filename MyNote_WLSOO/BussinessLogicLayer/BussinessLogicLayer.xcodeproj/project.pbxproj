@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DFD1983B1CBBC208002CCD5B /* BussinessLogicLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DFD1983A1CBBC208002CCD5B /* BussinessLogicLayer.h */; };
-		DFD1983D1CBBC208002CCD5B /* BussinessLogicLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD1983C1CBBC208002CCD5B /* BussinessLogicLayer.m */; };
+		DFD198451CBBC2D6002CCD5B /* NoteBL.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD198431CBBC2D6002CCD5B /* NoteBL.m */; };
+		DFD1987C1CBBC56A002CCD5B /* NoteBL.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD198441CBBC2D6002CCD5B /* NoteBL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFD198801CBBC5C3002CCD5B /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD1987F1CBBC5C3002CCD5B /* libPersistenceLayer.a */; };
+		DFD198821CBBC5DB002CCD5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD198811CBBC5DB002CCD5B /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +20,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				DFD1983B1CBBC208002CCD5B /* BussinessLogicLayer.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +27,10 @@
 
 /* Begin PBXFileReference section */
 		DFD198371CBBC208002CCD5B /* libBussinessLogicLayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBussinessLogicLayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFD1983A1CBBC208002CCD5B /* BussinessLogicLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BussinessLogicLayer.h; sourceTree = "<group>"; };
-		DFD1983C1CBBC208002CCD5B /* BussinessLogicLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BussinessLogicLayer.m; sourceTree = "<group>"; };
+		DFD198431CBBC2D6002CCD5B /* NoteBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteBL.m; sourceTree = "<group>"; };
+		DFD198441CBBC2D6002CCD5B /* NoteBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBL.h; sourceTree = "<group>"; };
+		DFD1987F1CBBC5C3002CCD5B /* libPersistenceLayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPersistenceLayer.a; path = "../PersistenceLayer/build/Debug-iphoneos/libPersistenceLayer.a"; sourceTree = "<group>"; };
+		DFD198811CBBC5DB002CCD5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD198821CBBC5DB002CCD5B /* Foundation.framework in Frameworks */,
+				DFD198801CBBC5C3002CCD5B /* libPersistenceLayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 		DFD1982E1CBBC208002CCD5B = {
 			isa = PBXGroup;
 			children = (
+				DFD198811CBBC5DB002CCD5B /* Foundation.framework */,
+				DFD1987F1CBBC5C3002CCD5B /* libPersistenceLayer.a */,
 				DFD198391CBBC208002CCD5B /* BussinessLogicLayer */,
 				DFD198381CBBC208002CCD5B /* Products */,
 			);
@@ -60,13 +67,24 @@
 		DFD198391CBBC208002CCD5B /* BussinessLogicLayer */ = {
 			isa = PBXGroup;
 			children = (
-				DFD1983A1CBBC208002CCD5B /* BussinessLogicLayer.h */,
-				DFD1983C1CBBC208002CCD5B /* BussinessLogicLayer.m */,
+				DFD198431CBBC2D6002CCD5B /* NoteBL.m */,
+				DFD198441CBBC2D6002CCD5B /* NoteBL.h */,
 			);
 			path = BussinessLogicLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DFD1987B1CBBC563002CCD5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD1987C1CBBC56A002CCD5B /* NoteBL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		DFD198361CBBC208002CCD5B /* BussinessLogicLayer */ = {
@@ -76,6 +94,7 @@
 				DFD198331CBBC208002CCD5B /* Sources */,
 				DFD198341CBBC208002CCD5B /* Frameworks */,
 				DFD198351CBBC208002CCD5B /* CopyFiles */,
+				DFD1987B1CBBC563002CCD5B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -122,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFD1983D1CBBC208002CCD5B /* BussinessLogicLayer.m in Sources */,
+				DFD198451CBBC2D6002CCD5B /* NoteBL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +189,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 			};
 			name = Debug;
 		};
@@ -207,6 +227,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -217,6 +238,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 			};
 			name = Debug;
 		};
@@ -226,6 +248,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 			};
 			name = Release;
 		};
@@ -248,6 +271,7 @@
 				DFD198421CBBC208002CCD5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

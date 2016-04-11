@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DFD1982C1CBBC1BA002CCD5B /* NoteDao.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD198281CBBC1BA002CCD5B /* NoteDao.m */; };
 		DFD1982D1CBBC1BA002CCD5B /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD1982A1CBBC1BA002CCD5B /* Note.m */; };
+		DFD198791CBBC53B002CCD5B /* NoteDao.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD198291CBBC1BA002CCD5B /* NoteDao.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFD1987A1CBBC53B002CCD5B /* Note.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD1982B1CBBC1BA002CCD5B /* Note.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,7 @@
 		DFD198291CBBC1BA002CCD5B /* NoteDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDao.h; sourceTree = "<group>"; };
 		DFD1982A1CBBC1BA002CCD5B /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
 		DFD1982B1CBBC1BA002CCD5B /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		DFD1987D1CBBC5B2002CCD5B /* libBussinessLogicLayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBussinessLogicLayer.a; path = "../BussinessLogicLayer/build/Debug-iphoneos/libBussinessLogicLayer.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,7 @@
 		DFD198131CBBC093002CCD5B = {
 			isa = PBXGroup;
 			children = (
+				DFD1987D1CBBC5B2002CCD5B /* libBussinessLogicLayer.a */,
 				DFD1981E1CBBC093002CCD5B /* PersistenceLayer */,
 				DFD1981D1CBBC093002CCD5B /* Products */,
 			);
@@ -71,6 +75,18 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		DFD198781CBBC52C002CCD5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD198791CBBC53B002CCD5B /* NoteDao.h in Headers */,
+				DFD1987A1CBBC53B002CCD5B /* Note.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		DFD1981B1CBBC093002CCD5B /* PersistenceLayer */ = {
 			isa = PBXNativeTarget;
@@ -79,6 +95,7 @@
 				DFD198181CBBC093002CCD5B /* Sources */,
 				DFD198191CBBC093002CCD5B /* Frameworks */,
 				DFD1981A1CBBC093002CCD5B /* CopyFiles */,
+				DFD198781CBBC52C002CCD5B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -218,6 +235,7 @@
 		DFD198261CBBC093002CCD5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COPY_HEADERS_RUN_UNIFDEF = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -227,6 +245,7 @@
 		DFD198271CBBC093002CCD5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COPY_HEADERS_RUN_UNIFDEF = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -252,6 +271,7 @@
 				DFD198271CBBC093002CCD5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

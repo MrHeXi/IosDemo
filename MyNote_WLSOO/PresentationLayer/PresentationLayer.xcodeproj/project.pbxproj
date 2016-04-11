@@ -10,10 +10,13 @@
 		DFD198541CBBC333002CCD5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD198531CBBC333002CCD5B /* main.m */; };
 		DFD198721CBBC379002CCD5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD198691CBBC379002CCD5B /* ViewController.m */; };
 		DFD198731CBBC379002CCD5B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFD1986B1CBBC379002CCD5B /* Info.plist */; };
-		DFD198741CBBC379002CCD5B /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DFD1986C1CBBC379002CCD5B /* Base.lproj */; };
 		DFD198751CBBC379002CCD5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD1986D1CBBC379002CCD5B /* Assets.xcassets */; };
 		DFD198761CBBC379002CCD5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD1986E1CBBC379002CCD5B /* AppDelegate.m */; };
 		DFD198771CBBC379002CCD5B /* AddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD198701CBBC379002CCD5B /* AddNoteViewController.m */; };
+		DFD198861CBBCAE7002CCD5B /* libBussinessLogicLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD198841CBBCAE7002CCD5B /* libBussinessLogicLayer.a */; };
+		DFD198871CBBCAE7002CCD5B /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD198851CBBCAE7002CCD5B /* libPersistenceLayer.a */; };
+		DFD1988E1CBBD0FD002CCD5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD1988C1CBBD0FD002CCD5B /* Main.storyboard */; };
+		DFD1988F1CBBD0FD002CCD5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD1988D1CBBD0FD002CCD5B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +25,15 @@
 		DFD198691CBBC379002CCD5B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DFD1986A1CBBC379002CCD5B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DFD1986B1CBBC379002CCD5B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFD1986C1CBBC379002CCD5B /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
 		DFD1986D1CBBC379002CCD5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFD1986E1CBBC379002CCD5B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DFD1986F1CBBC379002CCD5B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DFD198701CBBC379002CCD5B /* AddNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNoteViewController.m; sourceTree = "<group>"; };
 		DFD198711CBBC379002CCD5B /* AddNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNoteViewController.h; sourceTree = "<group>"; };
+		DFD198841CBBCAE7002CCD5B /* libBussinessLogicLayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBussinessLogicLayer.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/MyNote_WLSOO-fnlyelxmjgcpcqdsszrrghootzet/Build/Products/Debug-iphonesimulator/libBussinessLogicLayer.a"; sourceTree = "<group>"; };
+		DFD198851CBBCAE7002CCD5B /* libPersistenceLayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPersistenceLayer.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/MyNote_WLSOO-fnlyelxmjgcpcqdsszrrghootzet/Build/Products/Debug-iphonesimulator/libPersistenceLayer.a"; sourceTree = "<group>"; };
+		DFD1988C1CBBD0FD002CCD5B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DFD1988D1CBBD0FD002CCD5B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD198861CBBCAE7002CCD5B /* libBussinessLogicLayer.a in Frameworks */,
+				DFD198871CBBCAE7002CCD5B /* libPersistenceLayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +52,8 @@
 		DFD198461CBBC333002CCD5B = {
 			isa = PBXGroup;
 			children = (
+				DFD198841CBBCAE7002CCD5B /* libBussinessLogicLayer.a */,
+				DFD198851CBBCAE7002CCD5B /* libPersistenceLayer.a */,
 				DFD198511CBBC333002CCD5B /* PresentationLayer */,
 				DFD198501CBBC333002CCD5B /* Products */,
 			);
@@ -60,10 +70,11 @@
 		DFD198511CBBC333002CCD5B /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				DFD1988C1CBBD0FD002CCD5B /* Main.storyboard */,
+				DFD1988D1CBBD0FD002CCD5B /* LaunchScreen.storyboard */,
 				DFD198691CBBC379002CCD5B /* ViewController.m */,
 				DFD1986A1CBBC379002CCD5B /* ViewController.h */,
 				DFD1986B1CBBC379002CCD5B /* Info.plist */,
-				DFD1986C1CBBC379002CCD5B /* Base.lproj */,
 				DFD1986D1CBBC379002CCD5B /* Assets.xcassets */,
 				DFD1986E1CBBC379002CCD5B /* AppDelegate.m */,
 				DFD1986F1CBBC379002CCD5B /* AppDelegate.h */,
@@ -139,7 +150,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFD198741CBBC379002CCD5B /* Base.lproj in Resources */,
+				DFD1988E1CBBD0FD002CCD5B /* Main.storyboard in Resources */,
+				DFD1988F1CBBD0FD002CCD5B /* LaunchScreen.storyboard in Resources */,
 				DFD198751CBBC379002CCD5B /* Assets.xcassets in Resources */,
 				DFD198731CBBC379002CCD5B /* Info.plist in Resources */,
 			);
@@ -204,6 +216,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 			};
 			name = Debug;
 		};
@@ -242,6 +255,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -254,6 +268,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.native.PresentationLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 			};
 			name = Debug;
 		};
@@ -265,6 +280,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.native.PresentationLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 			};
 			name = Release;
 		};
@@ -287,6 +303,7 @@
 				DFD198681CBBC333002CCD5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
