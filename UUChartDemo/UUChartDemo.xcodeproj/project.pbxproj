@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF8D12F71CD1FDE100E62F91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8D12F61CD1FDE100E62F91 /* main.m */; };
+		DF8D12FA1CD1FDE100E62F91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8D12F91CD1FDE100E62F91 /* AppDelegate.m */; };
+		DF8D13021CD1FDE100E62F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8D13011CD1FDE100E62F91 /* Assets.xcassets */; };
+		DF8D13191CD1FEF900E62F91 /* UULineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8D130D1CD1FEF900E62F91 /* UULineChart.m */; };
+		DF8D131A1CD1FEF900E62F91 /* UUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8D130F1CD1FEF900E62F91 /* UUColor.m */; };
+		DF8D131B1CD1FEF900E62F91 /* UUChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8D13111CD1FEF900E62F91 /* UUChartLabel.m */; };
+		DF8D131C1CD1FEF900E62F91 /* UUChart.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8D13131CD1FEF900E62F91 /* UUChart.m */; };
+		DF8D131D1CD1FEF900E62F91 /* UUBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8D13151CD1FEF900E62F91 /* UUBarChart.m */; };
+		DF8D131E1CD1FEF900E62F91 /* UUBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8D13171CD1FEF900E62F91 /* UUBar.m */; };
+		DF8D13241CD2027400E62F91 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8D13221CD2027400E62F91 /* MainTableViewController.m */; };
+		DF8D13251CD2027400E62F91 /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8D13231CD2027400E62F91 /* MainTableViewController.xib */; };
+		DF8D13291CD20ED100E62F91 /* MyInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8D13271CD20ED100E62F91 /* MyInfoCell.m */; };
+		DF8D132A1CD20ED100E62F91 /* MyInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8D13281CD20ED100E62F91 /* MyInfoCell.xib */; };
+		DFD823C51CD30B5F00A3D105 /* TamOval_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD823C31CD30B5F00A3D105 /* TamOval_red@2x.png */; };
+		DFD823C61CD30B5F00A3D105 /* TamOval_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD823C41CD30B5F00A3D105 /* TamOval_green@2x.png */; };
+		DFD823C81CD3309000A3D105 /* taMoveLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD823C71CD3309000A3D105 /* taMoveLine@2x.png */; };
+		DFD823CA1CD33C7D00A3D105 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFD823C91CD33C7D00A3D105 /* 4.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF8D12F21CD1FDE100E62F91 /* UUChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UUChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8D12F61CD1FDE100E62F91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF8D12F81CD1FDE100E62F91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF8D12F91CD1FDE100E62F91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF8D13011CD1FDE100E62F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF8D13061CD1FDE100E62F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8D130D1CD1FEF900E62F91 /* UULineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UULineChart.m; path = UUChart/UULineChart.m; sourceTree = "<group>"; };
+		DF8D130E1CD1FEF900E62F91 /* UULineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UULineChart.h; path = UUChart/UULineChart.h; sourceTree = "<group>"; };
+		DF8D130F1CD1FEF900E62F91 /* UUColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUColor.m; path = UUChart/UUColor.m; sourceTree = "<group>"; };
+		DF8D13101CD1FEF900E62F91 /* UUColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUColor.h; path = UUChart/UUColor.h; sourceTree = "<group>"; };
+		DF8D13111CD1FEF900E62F91 /* UUChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUChartLabel.m; path = UUChart/UUChartLabel.m; sourceTree = "<group>"; };
+		DF8D13121CD1FEF900E62F91 /* UUChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUChartLabel.h; path = UUChart/UUChartLabel.h; sourceTree = "<group>"; };
+		DF8D13131CD1FEF900E62F91 /* UUChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUChart.m; path = UUChart/UUChart.m; sourceTree = "<group>"; };
+		DF8D13141CD1FEF900E62F91 /* UUChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUChart.h; path = UUChart/UUChart.h; sourceTree = "<group>"; };
+		DF8D13151CD1FEF900E62F91 /* UUBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUBarChart.m; path = UUChart/UUBarChart.m; sourceTree = "<group>"; };
+		DF8D13161CD1FEF900E62F91 /* UUBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUBarChart.h; path = UUChart/UUBarChart.h; sourceTree = "<group>"; };
+		DF8D13171CD1FEF900E62F91 /* UUBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUBar.m; path = UUChart/UUBar.m; sourceTree = "<group>"; };
+		DF8D13181CD1FEF900E62F91 /* UUBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUBar.h; path = UUChart/UUBar.h; sourceTree = "<group>"; };
+		DF8D13211CD2027400E62F91 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		DF8D13221CD2027400E62F91 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		DF8D13231CD2027400E62F91 /* MainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
+		DF8D13261CD20ED100E62F91 /* MyInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoCell.h; sourceTree = "<group>"; };
+		DF8D13271CD20ED100E62F91 /* MyInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoCell.m; sourceTree = "<group>"; };
+		DF8D13281CD20ED100E62F91 /* MyInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyInfoCell.xib; sourceTree = "<group>"; };
+		DFD823C31CD30B5F00A3D105 /* TamOval_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TamOval_red@2x.png"; sourceTree = "<group>"; };
+		DFD823C41CD30B5F00A3D105 /* TamOval_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TamOval_green@2x.png"; sourceTree = "<group>"; };
+		DFD823C71CD3309000A3D105 /* taMoveLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taMoveLine@2x.png"; sourceTree = "<group>"; };
+		DFD823C91CD33C7D00A3D105 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF8D12EF1CD1FDE100E62F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF8D12E91CD1FDE100E62F91 = {
+			isa = PBXGroup;
+			children = (
+				DF8D12F41CD1FDE100E62F91 /* UUChartDemo */,
+				DF8D12F31CD1FDE100E62F91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF8D12F31CD1FDE100E62F91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D12F21CD1FDE100E62F91 /* UUChartDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF8D12F41CD1FDE100E62F91 /* UUChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DFD823CB1CD33FAA00A3D105 /* Resource */,
+				DF8D13201CD2024C00E62F91 /* ViewController */,
+				DF8D12F81CD1FDE100E62F91 /* AppDelegate.h */,
+				DF8D12F91CD1FDE100E62F91 /* AppDelegate.m */,
+				DF8D13011CD1FDE100E62F91 /* Assets.xcassets */,
+				DF8D13061CD1FDE100E62F91 /* Info.plist */,
+				DF8D12F51CD1FDE100E62F91 /* Supporting Files */,
+				DF8D130C1CD1FEE700E62F91 /* OtherSource */,
+			);
+			path = UUChartDemo;
+			sourceTree = "<group>";
+		};
+		DF8D12F51CD1FDE100E62F91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D12F61CD1FDE100E62F91 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF8D130C1CD1FEE700E62F91 /* OtherSource */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D131F1CD1FF0100E62F91 /* UUChart */,
+			);
+			name = OtherSource;
+			sourceTree = "<group>";
+		};
+		DF8D131F1CD1FF0100E62F91 /* UUChart */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D130D1CD1FEF900E62F91 /* UULineChart.m */,
+				DF8D130E1CD1FEF900E62F91 /* UULineChart.h */,
+				DF8D130F1CD1FEF900E62F91 /* UUColor.m */,
+				DF8D13101CD1FEF900E62F91 /* UUColor.h */,
+				DF8D13111CD1FEF900E62F91 /* UUChartLabel.m */,
+				DF8D13121CD1FEF900E62F91 /* UUChartLabel.h */,
+				DF8D13131CD1FEF900E62F91 /* UUChart.m */,
+				DF8D13141CD1FEF900E62F91 /* UUChart.h */,
+				DF8D13151CD1FEF900E62F91 /* UUBarChart.m */,
+				DF8D13161CD1FEF900E62F91 /* UUBarChart.h */,
+				DF8D13171CD1FEF900E62F91 /* UUBar.m */,
+				DF8D13181CD1FEF900E62F91 /* UUBar.h */,
+			);
+			name = UUChart;
+			sourceTree = "<group>";
+		};
+		DF8D13201CD2024C00E62F91 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D13211CD2027400E62F91 /* MainTableViewController.h */,
+				DF8D13221CD2027400E62F91 /* MainTableViewController.m */,
+				DF8D13231CD2027400E62F91 /* MainTableViewController.xib */,
+				DF8D13261CD20ED100E62F91 /* MyInfoCell.h */,
+				DF8D13271CD20ED100E62F91 /* MyInfoCell.m */,
+				DF8D13281CD20ED100E62F91 /* MyInfoCell.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		DFD823CB1CD33FAA00A3D105 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DFD823C91CD33C7D00A3D105 /* 4.jpg */,
+				DFD823C71CD3309000A3D105 /* taMoveLine@2x.png */,
+				DFD823C31CD30B5F00A3D105 /* TamOval_red@2x.png */,
+				DFD823C41CD30B5F00A3D105 /* TamOval_green@2x.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF8D12F11CD1FDE100E62F91 /* UUChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8D13091CD1FDE100E62F91 /* Build configuration list for PBXNativeTarget "UUChartDemo" */;
+			buildPhases = (
+				DF8D12EE1CD1FDE100E62F91 /* Sources */,
+				DF8D12EF1CD1FDE100E62F91 /* Frameworks */,
+				DF8D12F01CD1FDE100E62F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UUChartDemo;
+			productName = UUChartDemo;
+			productReference = DF8D12F21CD1FDE100E62F91 /* UUChartDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF8D12EA1CD1FDE100E62F91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "何溪";
+				TargetAttributes = {
+					DF8D12F11CD1FDE100E62F91 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = APMGPP4FVK;
+					};
+				};
+			};
+			buildConfigurationList = DF8D12ED1CD1FDE100E62F91 /* Build configuration list for PBXProject "UUChartDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF8D12E91CD1FDE100E62F91;
+			productRefGroup = DF8D12F31CD1FDE100E62F91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF8D12F11CD1FDE100E62F91 /* UUChartDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF8D12F01CD1FDE100E62F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD823C81CD3309000A3D105 /* taMoveLine@2x.png in Resources */,
+				DFD823CA1CD33C7D00A3D105 /* 4.jpg in Resources */,
+				DF8D132A1CD20ED100E62F91 /* MyInfoCell.xib in Resources */,
+				DFD823C51CD30B5F00A3D105 /* TamOval_red@2x.png in Resources */,
+				DF8D13251CD2027400E62F91 /* MainTableViewController.xib in Resources */,
+				DFD823C61CD30B5F00A3D105 /* TamOval_green@2x.png in Resources */,
+				DF8D13021CD1FDE100E62F91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF8D12EE1CD1FDE100E62F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8D12FA1CD1FDE100E62F91 /* AppDelegate.m in Sources */,
+				DF8D131E1CD1FEF900E62F91 /* UUBar.m in Sources */,
+				DF8D131D1CD1FEF900E62F91 /* UUBarChart.m in Sources */,
+				DF8D13291CD20ED100E62F91 /* MyInfoCell.m in Sources */,
+				DF8D131B1CD1FEF900E62F91 /* UUChartLabel.m in Sources */,
+				DF8D131C1CD1FEF900E62F91 /* UUChart.m in Sources */,
+				DF8D131A1CD1FEF900E62F91 /* UUColor.m in Sources */,
+				DF8D13191CD1FEF900E62F91 /* UULineChart.m in Sources */,
+				DF8D12F71CD1FDE100E62F91 /* main.m in Sources */,
+				DF8D13241CD2027400E62F91 /* MainTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF8D13071CD1FDE100E62F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF8D13081CD1FDE100E62F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF8D130A1CD1FDE100E62F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = UUChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.native.UUChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF8D130B1CD1FDE100E62F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = UUChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.native.UUChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF8D12ED1CD1FDE100E62F91 /* Build configuration list for PBXProject "UUChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8D13071CD1FDE100E62F91 /* Debug */,
+				DF8D13081CD1FDE100E62F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8D13091CD1FDE100E62F91 /* Build configuration list for PBXNativeTarget "UUChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8D130A1CD1FDE100E62F91 /* Debug */,
+				DF8D130B1CD1FDE100E62F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF8D12EA1CD1FDE100E62F91 /* Project object */;
+}
